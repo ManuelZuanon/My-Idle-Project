@@ -1,0 +1,4 @@
+repository "My Idle Project/My Idle Project@1271361@cloud"
+  path "/"
+    br "/main"
+    co "/main"
