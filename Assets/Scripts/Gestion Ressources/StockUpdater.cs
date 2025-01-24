@@ -33,7 +33,7 @@ public class StockUpdater : MonoBehaviour
             {
                 idea += speed * 0.01f; // Ajouter 1 % de la vitesse à "idea"
                 int idea_to_text = Mathf.FloorToInt(idea); // Conversion en entier
-                idea_text.text = idea_to_text.ToString(); // Mettre à jour le texte
+                idea_text.text = "Idées \n" + idea_to_text.ToString(); // Mettre à jour le texte
                 _delay = 0f; // Réinitialiser le délai
             }
         }       
