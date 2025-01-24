@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class StockUpdater : MonoBehaviour
+public class StockTextUpdater : MonoBehaviour
 {
     // Référence au Slider
     public Slider stock_Slider;

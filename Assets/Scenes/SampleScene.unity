@@ -789,6 +789,7 @@ GameObject:
   - component: {fileID: 1103616061}
   - component: {fileID: 1103616063}
   - component: {fileID: 1103616062}
+  - component: {fileID: 1103616064}
   m_Layer: 5
   m_Name: Stock_Slider
   m_TagString: Untagged
@@ -880,10 +881,24 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1103616064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103616060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a585ebffdf55b4b9c6e410e709e4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1103616063}
+  speed: 1
 --- !u!1 &1402986089
 GameObject:
   m_ObjectHideFlags: 0
