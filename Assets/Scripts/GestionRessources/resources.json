@@ -1,0 +1,30 @@
+{
+    "Resources": [
+        {
+            "Name": "Food",
+            "SpeedUpCost": {
+                "Ressource": "Food",
+                "UpCost": 50,
+                "NextUpMultiplier": 1.1
+            },
+            "StockUpCost": {
+                "Ressource": "Stone",
+                "UpCost": 75,
+                "NextUpMultiplier": 1.1
+            }
+        },
+        {
+            "Name": "Stone",
+            "SpeedUpCost": {
+                "Ressource": "Food",
+                "UpCost": 75,
+                "NextUpMultiplier": 1.2
+            },
+            "StockUpCost": {
+                "Ressource": "Stone",
+                "UpCost": 75,
+                "NextUpMultiplier": 1.1
+            }
+        }
+    ]
+}
